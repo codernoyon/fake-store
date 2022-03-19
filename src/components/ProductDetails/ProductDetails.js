@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Image, Modal } from 'react-bootstrap';
+import { Button, Modal } from 'react-bootstrap';
 
 const ProductDetails = (props) => {
     const { title, price, description, category, image, rating } = props.product;
